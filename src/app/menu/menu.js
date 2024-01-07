@@ -3,8 +3,8 @@ import { Search } from "../search/search"
 
 export const Menu = ({ scrollHeight })=>{
     return (
-        <div className="flex justify-between font-bold" 
-        style={{ position: 'fixed', width: "100%", 
+        <div className="z-20 flex justify-between font-bold" 
+        style={{ position: `${scrollHeight < 100 ? "sticky" : "fixed"}`, width: "100%", 
         backgroundColor: scrollHeight < 100 ? "transparent" : "white",
         transition: "0.25s ease-in-out" }}>
             <div className="py-4 px-8">

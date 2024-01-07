@@ -1,3 +1,6 @@
+*{
+    cursor: pointer;
+}
 .banner{
     height: 70vh;
     background-image: url("assets/banner-bg.jpg");
