@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useId, useRef, useState } from "react";
 
 function App() {
+  const [name, setName] = useState("")
+  const reference = useRef()
+  useId()
+  useEffect(()=>{
+    console.log(name);
+  }, [name])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>Picksary</p>
+      <input type="text" name="name" onChange={e => setName(e.target.value)}/>
+      <div>
+        { name }
+      </div>
+      <input type="text" name="reference" ref={reference}/>
     </div>
   );
 }
