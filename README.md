@@ -2,14 +2,14 @@
 
 
 ## Overview
-`PickSary` is an opensource project aimed at providing a seamless experience for users to discover and download high-quality, royality-free images for their creative projects.
+`PickSary` is an opensource project aimed at providing a seamless experience for users to discover and download high-quality, royality-free images, musiques, videos about Madagascar for their creative projects.
 
 
 ## Features
 * #### Search functionality:
-    Easily find images based on keywords
-* #### Image Preview:
-    Preview images before downloading to ensure they meet your requirements
+    Easily find images, musiques, video based on keywords
+* #### Content Preview:
+    Preview content before downloading to ensure they meet your requirements
 * #### Download Options:
     Choose from various resolutions and formats to suit your project needs
 
