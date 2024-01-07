@@ -1,0 +1,9 @@
+.banner{
+    height: 70vh;
+    background-image: url("assets/banner-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+}
