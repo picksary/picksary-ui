@@ -3,15 +3,20 @@ import "./App.css"
 import { Menu } from "./app/menu/menu";
 import { Search } from "./app/search/search";
 import { Blank } from "./utils/utils";
+import { Articles } from "./app/articles/article";
 
 function App() {
 
   const [scrollHeight, setScrollHeight] = useState("none")
+  const [media, setMedia] = useState([])
+
+  /*function fetchItems() {
+    setMedia([...media])
+  }*/
 
   useEffect(()=>{
       const handleScroll = ()=> {
           setScrollHeight(window.scrollY)
-          console.log(window.scrollY);
       }
       window.addEventListener('scroll', handleScroll)
       return () => window.removeEventListener('scroll', handleScroll)
@@ -19,7 +24,7 @@ function App() {
 
   return (
     <div>
-      <div className="banner">
+      <header className="banner">
         <Menu scrollHeight={scrollHeight}/>
         <Blank/>
         <div className="text-white text-2xl font-bold text-center pt-12 pb-4">
@@ -29,10 +34,10 @@ function App() {
         <div style={{ width: "1000px", margin: "auto" }}>
           <Search />
         </div>
-      </div>
-      <div>
-     
-      </div>
+      </header>
+      <article className="py-12 px-4">
+          <Articles items={media} />
+      </article>
     </div>
   );
 }
