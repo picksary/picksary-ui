@@ -1,7 +1,7 @@
 export const Blank = ()=>{
     return(
         <>
-         <div className="py-8"></div>
+         <div className="py-12"></div>
         </>
     )
 }
