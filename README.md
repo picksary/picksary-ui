@@ -46,7 +46,7 @@ We welcome contributions to enhance `PickSary`. Follow this guidelines:
 If you encounter any bugs or have suggestions, please open an issue on our [GitHub Issues]() page.
 
 ## License
-PickSary is licensed under the [MIT License]().
+PickSary is licensed under the [MIT License](https://github.com/picksary/picksary-ui/blob/dev/LICENSE).
 
 ## Acknowledgments
 Feel free to explore, contribute, and enjoy the world of free and stunning images with PickSary.
