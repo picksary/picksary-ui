@@ -8,7 +8,7 @@ export const Menu = ({ scrollHeight })=>{
         backgroundColor: scrollHeight < 100 ? "transparent" : "white",
         transition: "0.25s ease-in-out" }}>
             <div className="py-4 px-8">
-                <h1 className={`py-2 font-bold text-xl text-${scrollHeight < 100 ? "white" : "gray"}`}>PickSary</h1>
+                <h1 className={`py-2 font-bold text-xl text-${scrollHeight < 100 ? "white" : "gray"}`}>Picksary</h1>
             </div>
             <Search scrollHeight={scrollHeight}/>
             <div className="py-2">
