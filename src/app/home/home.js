@@ -12,7 +12,7 @@ import moutain from "../../assets/mountain-8433234_1280.jpg"
 import mountains from "../../assets/mountains-8492823_1280.jpg"
 import man from "../../assets/man-7886201_1280.jpg"
 
-function Home() {
+export function Home() {
 
   const [scrollHeight, setScrollHeight] = useState("none")
   const [media, setMedia] = useState([[street,cotton, butterfly, duck, mountains, man,moutain, flower]])
@@ -47,4 +47,3 @@ function Home() {
   );
 }
 
-export default Home;

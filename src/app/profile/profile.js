@@ -12,7 +12,7 @@ export const Profile = ({ imageData })=>{
                 <div className="m-auto">
                     <img className="w-auto h-96" src={image} alt="image"/>
                 </div>
-                <div className=" border-2 border-gray-200 p-12 rounded-[8px] w-96">
+                <div className=" border-2 border-gray-200 p-6 rounded-[8px] w-96">
                     <div className="my-6">
                         <p className="text-sm font-light text-gray-500">Gratuit pour une utilisation sous <a className="underline">licence contenu</a> Picksary</p>
                          <div className="flex justify-between">
@@ -28,14 +28,26 @@ export const Profile = ({ imageData })=>{
                     <div className="my-6">
                         <div>
                             <Button 
-                                classNameAttr="text-xs border-2 border-gray-500 m-1 text-sm text-gray-500 py-2 px-6 rounded-[8px] inline-flex items-center"
-                                label="5,256" />
+                                classNameAttr="text-xs border-2 border-gray-500 text-sm text-gray-500 py-1 px-4 rounded-[8px] inline-flex items-center"
+                                label="5,256" >
+                                    <svg class="w-5 h-5 p-1 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 21 19">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4C5.5-1.5-1.5 5.5 4 11l7 7 7-7c5.458-5.458-1.542-12.458-7-7Z"/>
+                                    </svg>
+                                </Button>
                             <Button 
-                                classNameAttr="text-xs border-2 border-gray-500 m-1 text-sm text-gray-500 py-2 px-6 rounded-[8px] inline-flex items-center"
-                                label="Enregistrer" />
+                                classNameAttr="text-xs border-2 border-gray-500 m-2 text-sm text-gray-500 py-1 px-4 rounded-[8px] inline-flex items-center"
+                                label="Enregistrer" >
+                                    <svg class="w-5 h-5 p-1 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 20">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m13 19-6-5-6 5V2a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v17Z"/>
+                                    </svg>
+                                </Button>
                             <Button 
-                                classNameAttr="text-xs border-2 border-gray-500 m-1 text-sm text-gray-500 py-2 px-6 rounded-[8px] inline-flex items-center"
-                                label="S" />
+                                classNameAttr="text-xs border-2 border-gray-500 text-sm text-gray-500 py-1 px-4 rounded-[8px] inline-flex items-center"
+                                label="Partager" >
+                                    <svg class="w-5 h-5 p-1 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5.953 7.467 6.094-2.612m.096 8.114L5.857 9.676m.305-1.192a2.581 2.581 0 1 1-5.162 0 2.581 2.581 0 0 1 5.162 0ZM17 3.84a2.581 2.581 0 1 1-5.162 0 2.581 2.581 0 0 1 5.162 0Zm0 10.322a2.581 2.581 0 1 1-5.162 0 2.581 2.581 0 0 1 5.162 0Z"/>
+                                    </svg>
+                                </Button>
                         </div>
                         <div className="m-1">
                             <div className="flex justify-between">
